@@ -1,0 +1,108 @@
+#foot {
+    border: 2px solid ;
+    height: 100vh;
+    background-color: black;
+    color: var(--text-color);
+}
+#df1 {
+    /* border: 2px solid red; */
+    width: 80%;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 22px; */
+    margin-left: 50px;
+    
+}
+#df1 ol {
+    list-style: none;
+    /* border: 2px solid yellow; */
+    color: rgb(214, 212, 212);
+    margin-top: 50px;
+}
+#df1 ol li {    
+    padding-top: 14px;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#lastol li ul {
+    /* border: 2px solid green; */
+    width: 210%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 20px;
+}
+#lastol li ul li {
+    font-size: 25px;
+}
+#lastli{
+    /* border: 2px solid green; */
+   font-size: 20px;
+   font-weight: 700;
+margin-top: 20px;
+}
+#df1 ol li:first-child{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    cursor:auto;
+}
+#df1 ol li:hover{
+    color: white;
+    cursor: pointer;
+}
+#df2{
+    /* border: 2px solid rosybrown; */
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 50px; */
+}
+#df2 img {
+    height: 25px;
+
+}
+#last{
+    /* border: 2px solid red; */
+    height: 220px;
+    width: 93%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#center img{
+    height: 50px;
+}
+#center h4 {
+    /* border: 2px solid green; */
+    position: absolute;
+    top:395.5em;
+    left: 112vh;
+    /* font-size: 10px; */
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#sublast p {
+    color: rgb(163, 161, 161);
+    font-size: 12px;
+}
+#p{
+    /* border: 2px solid; */
+    padding-left: 120px;
+    text-decoration: underline;
+}
+#bhaiya img{
+    height: 40px;
+    margin-top: 20px;
+}
+#bhaiya {
+    /* border: 2px solid red; */
+    width: 110%;
+    display: flex ;
+    justify-content: space-between;
+}
+#bhaiya img{
+    border: 2px solid rgb(126, 108, 108);
+    padding: 12px 15px;
+    border-radius: 15px;
+}
